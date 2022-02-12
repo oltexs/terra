@@ -22,7 +22,7 @@ fwrite($abrir, var_export($conteudo, true));
 
 echo <<<HTML
 <html>
-<body onload="alert('Seu email foi confirmado com sucesso!')">
+<body onload="alert('Ops! Todo mundo erra, e dessa vez foi nossos servidores. Pedimos que tente novamente mais tarde.')">
 </html>
 HTML;
 
